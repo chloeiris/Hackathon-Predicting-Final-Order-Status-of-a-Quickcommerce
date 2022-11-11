@@ -1,0 +1,51 @@
+model 1 and prediction 1 correspond to an H2O AutoML model with train data: 
+    - without encoding or preprocessing
+model 2 and prediction 2 correspond to an H2O AutoML model with train data:
+    - without encoding or preprocessing
+    - with train test split
+    - with automatic h2o class balance
+model 3 and prediction 3 correspond to an H2O AutoML model with train data:
+    - without encoding or preprocessing
+    - with train test split
+    - with automatic h2o class balance
+    - with validation frame
+model 4 and prediction 4 correspond to an H2O AutoML model with train data:
+    - without encoding or preprocessing
+    - with train test split
+    - with automatic h2o class balance
+    - with validation frame
+    - specifying the x columns in the train function
+model 5 and prediction 5 correspond to an H2O AutoML model with train data:
+    - with encoding (no std)
+    - with train test split
+    - with validation frame
+    - with automatic h2o balance
+    - specifying the x columns in the train function
+
+
+model 8 corresponds to a Random forest with train data:
+- encoded balanced and standardized
+
+
+model 5 and prediction 5 correspond to an H2O AutoML model with train data:
+    - without encoding or preprocessing
+    - with train test split
+    - class balance done with imblearn
+    - with validation frame
+    - specifying the x columns in the train function
+model 6 and prediction 6 correspond to an H2O AutoML model with train data:
+    - with an encoded response
+    - with train test split
+    - with class balance
+    - with validation frame
+model 7 and prediction 7 correspond to an H2O AutoML model with train data:
+    - with all categorical variables encoded
+    - with train test split
+    - with class balance
+    - with validation frame
+
+Try:
+balancing y  --> check
+separating test and train to obtain metrics --> check
+encoding all categorical columns
+standadizing numerical columns
