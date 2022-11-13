@@ -8,12 +8,12 @@ RESPUESTAS
 
 2. ### _¿Cuáles son las horas en las que se realizan más pedidos en España?_
 
-> _Las horas más comunes para pedir productos en España parecen ser alrededor de las 10 de la mañana y alrededor de las 9 de la noche. Sin embargo, el trazado de esta columna nos dará una idea más precisa_
+> _Las horas más comunes para pedir productos en España parecen ser entre las 8 y las 9 PM, seguidas de las 7 PM y la 1 PM. Sin embargo, el trazado de esta columna nos dará una idea más precisa_
 
 ![grafico](data/most_freq_hours.png)
 
-> *  _Podemos confirmar que los principales picos se producen en torno a las 10 de la mañana y las 21 horas._
-> * _Sin embargo, las franjas horarias más activas son los mediodías y las noches._
+> * _Podemos confirmar que el pico principal se producen desde las 7 a las 9 PM, siendo el pico máximo en torno a las 8 PM._
+> * _Las franjas horarias más activas son los mediodías y las noches._
 
 3. ### _¿Cuál es el precio medio por pedido en la tienda con ID 12513?_
 
@@ -46,12 +46,12 @@ ANSWERS
 
 2. What are the most common times for orders in Spain?
 
-> The most common times to order products in Spain seem to be around 10 am and around 9 pm. However, the plotting of this column will give us a more accurate idea.
+>  The most common hours for ordering products in Spain seem to be from 8 to 9 PM, closely followed by 7 PM and 1 PM. However, plotting this column will give us a more accurate idea
 
 ![plot](data/most_freq_hours.png)
 
-> * We can confirm that the main peaks occur around 10 am and 9 pm.
-> * However, the most active time slots are midday and evening.
+> * We can confirm that the main peak happens from 7 to 9 PM, with a maximum peak at atound 8 PM.
+> * The most active time slots are middays and evenings.
 
 3. What is the average price per order in the store with ID 12513?
 
