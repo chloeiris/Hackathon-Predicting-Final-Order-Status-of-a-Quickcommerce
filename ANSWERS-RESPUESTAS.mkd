@@ -1,0 +1,30 @@
+
+1. ### _¿Cuáles son los 3 paises en los que más pedidos se realizan?_
+
+> _Argentina (AR), España (ES) y Turquía (TR) son los tres países donde se realizan más pedidos._
+
+2. ### _¿Cuáles son las horas en las que se realizan más pedidos en España?_
+
+> _Las horas más comunes para pedir productos en España parecen ser alrededor de las 10 de la mañana y alrededor de las 9 de la noche. Sin embargo, el trazado de esta columna nos dará una idea más precisa_
+
+![grafico](data/most_freq_hours.png)
+
+> *  _Podemos confirmar que los principales picos se producen en torno a las 10 de la mañana y las 21 horas._
+> * _Sin embargo, las franjas horarias más activas son los mediodías y las noches._
+
+3. ### _¿Cuál es el precio medio por pedido en la tienda con ID 12513?_
+
+> _El precio medio por pedido en la tienda con ID 12513 es de *`17,4`*._
+
+4. ### _¿Qué porcentaje de repartidores pondrías por cada turno para que sean capaces de hacer frente a los picos de demanda? (ej: Turno 1 el 30%, Turno 2 el 10% y Turno 3 el 60%)._
+
+>  _Distribuiría:_
+> * _El `0.12%` de los repartidores durante el primer turno_
+> * _El `38.84%` de los repartidores durante el segundo turno_
+> * _El `61.04%` de los repartidores durante el tercer turno_
+
+5. ### _Realiza un modelo predictivo de machine learning a partir del dataset 'train.csv' en el cual a partir de las variables predictoras que se entregan en el dataset 'test_X' se pueda predecir si el pedido se cancelará o no (columna 'final_status')._
+
+> Respuesta (predicción) en la carpeta "6_final_model_and prediction" / "final_prediction_xgboost.csv"
+>
+> Métricas en "f1_metrics_xgboost.csv" y "general_metrics_xgboost.png"

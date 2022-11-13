@@ -1,0 +1,8 @@
+model h2o and prediction h2o correspond to an H2O AutoML model with sklearn:
+    - fully encoded, standardized and balanced manually.
+    
+model xgboost and prediction xgboost correspond to an H2O model with XGBoost:
+    - fully encoded, standardized and balanced manually.
+
+model rf_raw and prediction rf_raw correspond to an H2O AutoML model with Distributed Random Forest:
+    - time converted to seconds, response variable encoded and balanced automatically.
