@@ -40,7 +40,7 @@ My answers to the challenge are in the file: ANSWERS-RESPUESTAS.mkd
 The reasoning behind questions 1-4 is in the jupyter notebook called "exploratory-data-analysis".
 The answer to question 5 is in the folder 6_final_prediction_and_metrics in the file "final_prediction_xgboost.csv" and the metrics corresponding to the model in "f1_metrics_xgboost.csv" and "general_metrics_xgboost.png".
 
-The challenge is based on a dataset that collects data from orders placed with a Quick Commerce company, and consists of answering some analysis questions and making a predictive model that will find out if the order will be cancelled or finally delivered, based on the other data collected.
+The challenge is based on a dataset that collects data from the orders of a Quick Commerce company, and consists of answering some analysis questions and making a predictive model that will find out if the order will be cancelled or finally delivered, based on the other data collected.
 
 The questions are as follows:
 
